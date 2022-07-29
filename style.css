@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    outline: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #7030cc;
+}
+
+nav {
+    padding: 50px 200px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-list-item {
+    display: inline;
+    margin: 0 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.item-active {
+    color: #25aaea;
+    border-bottom: 1px solid #ce6bde;
+}
+
+.nav-btn {
+    padding: 20px 25px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #1bbcef;
+    border: none;
+    margin-left: 50px;
+}
+
+.header-main {
+    padding: 0px 200px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+
+.header-content, .header-image {
+    display: inline-block;
+}
+
+.header-image {
+    float: right;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+.header-content {
+    padding-top: 50px;
+}
+
+.header-content h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.header-content p {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin: 50px 0;
+}
+
+.operations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 200px;
+}
+
+.specifications {
+    padding: 100px 100px 100px 200px;
+}
+
+.specifications h1 {
+    font-size: 35px;
+}
+
+.specifications-list {
+    margin-top: 75px;
+}
+
+.specification {
+    margin: 20px 0;
+}
+
+.specification img {
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.bullet-heading {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.bullet-heading p {
+    margin: 20px 0;
+}
+
+.services {
+    padding: 0 200px;
+}
+
+.service-heading {
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.service {
+    width: 200px;
+    padding-top: 20px;
+    border-radius: 25px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 1px 4px;
+}
+
+.image {
+    display: inline-block;
+    padding: 50px;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+.code {
+    background-color: #e4cac5;
+}
+
+.analytics {
+    background: #c3bef257;
+}
+
+.security {
+    background: #bcd9ba;
+}
+
+.support {
+    background: #c49aff;
+}
+
+.content {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.content-active {
+    background-color: #9638d9;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.content p {
+    font-size: 15px;
+    margin-top: 10px;
+}
